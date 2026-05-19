@@ -399,3 +399,26 @@ footer {
     padding: 5rem 0;
   }
 }
+
+.project-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card h3,
+.project-card p {
+  color: inherit;
+}
+
+/* Liens dans la section Contact */
+#contact a {
+  color: inherit;          /* utilise la même couleur que le texte normal */
+  text-decoration: none;   /* enlève le soulignement */
+  transition: 0.3s ease;
+}
+
+/* Effet au survol */
+#contact a:hover {
+  color: #39ff14;          /* vert néon de ton thème */
+  text-shadow: 0 0 10px #39ff14;
+}
